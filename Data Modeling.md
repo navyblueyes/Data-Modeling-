@@ -210,31 +210,60 @@ img[alt=pict08] {
 
 #### 5. IE Entity Type and Relationship Type
 
-1. 
-
-
+1. Different types
+    1. Independent entity type
+        1. Primary Key <ins>** NOT INCLUDE**</ins> Foreign Keys
+    1. Dependent entity type
+        1. Primary Key <ins>**INCLUDES**</ins> Foreign Keys
+    1. Difference in IE 
+        1. ![pict06](pict/chapt2.5.1.jpg)
 
 
 #### 6. Association Name
 
-1. 
-
+1. Naming Links in UML
+    1. ![pict06](pict/chapt2.6.1.jpg)
+    1. ![pict06](pict/chapt2.6.2.jpg)
+    1. ![pict04](pict/chapt2.6.3.jpg)
     
-
+1. Naming Relationships in IE
+    1. ![pict06](pict/chapt2.6.4.jpg)
+    1. ![pict06](pict/chapt2.6.5.jpg) 
+    1. ![pict06](pict/chapt2.6.6.jpg)
 
 #### 7. Association End
 
-1. 
+1. Basic Definition
+    1. Association with a related class
+1. Implementing within UML
+    1. ![pict04](pict/chapt2.7.1.jpg)
+    1. ![pict06](pict/chapt2.7.2.jpg)
+    1. ![pict04](pict/chapt2.7.3.jpg)
+1. Implementing within IE
+    1. ![pict06](pict/chapt2.7.4.jpg)
+    1. ![pict06](pict/chapt2.7.5.jpg)
+    1. ![pict06](pict/chapt2.7.6.jpg)
 
 
 #### 8. Multiplicity - UML
 
-1. 
-
+1. Number of occurances <ins>of one class</ins>
+    1. relating to a single occurence
+        1. <ins>of an associated class</ins>
+1. Within UML
+    1. creating ONE person IN a FreqFlyAccount
+        1. ![pict08](pict/chapt2.8.1.jpg)
+    1. creating many FreqFlyAccounts PER Persone
+        1. ![pict08](pict/chapt2.8.2.jpg)
+    1. OVERVIEW
+        1. ![pict08](pict/chapt2.8.3.jpg)
+    1. MAY or MAY NOT = 0.1
+        1. ![pict06](pict/chapt2.8.4.jpg)
 
 #### 9. Multiplicity - IE
 
-1. 
+1. Within IE
+    1. ![](pict/chapt2.9.1.jpg)
 
 
 #### 10. Generalization - UML
