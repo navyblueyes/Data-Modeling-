@@ -135,18 +135,55 @@ img[alt=pict08] {
 
 #### 1. Class and Attribute
 
-1. 
+1. Object
+    1. Concept that has **IDENTITY** and **MEANING** within application
+    1. ALSO KNOWN AS... Data
+        1. Data Entry
+1. Class
+    1. Grouping of similar objects
+    1. ALSO KNOWN AS... MetaData
+        1. Data Table
 
+1. Using UML technology
+    1. Creating a new Class / Table
+        1. ![pict06](pict/chapt2.1.1.jpg)
+        1. ![pict06](pict/chapt2.1.2.jpg)
+        1. ![pict06](pict/chapt2.1.3.jpg)
+    1. Class and Attribute
+        1. ![pict08](pict/chapt2.1.5.jpg)
+        1. ![pict06](pict/chapt2.1.6.jpg)
+        1. ![pict06](pict/chapt2.1.7.jpg)
+    1. BOTH IE and UML...
+        1. Have value and attribute
+    1. Create a IE entity type
+        1. ![pict06](pict/chapt2.1.8.jpg)
+        1. ![pict06](pict/chapt2.1.9.jpg)
+        1. ![pict06](pict/chapt2.1.10.jpg)
+        1. ![pict06](pict/chapt2.1.11.jpg)
+        1. ![pict06](pict/chapt2.1.12.jpg)
 
 #### 2. Operation
 
-1. 
+1. Basic Definition
+    1. Function that is applied to/by classes
+1. Using within UML
+    1. ![pict06](pict/chapt2.2.1.jpg)
+    1. ![pict06](pict/chapt2.2.2.jpg)
+    1. ![pict04](pict/chapt2.2.3.jpg)
 
 
 #### 3. Domain
 
-1. 
-
+1. Basic Definition
+    1. Named set of possible values
+        1. Also consider `data type`
+        1. specification of attribute's type/size in value
+1. Using Domains in IE
+    1. ![pict06](pict/chapt2.3.1.jpg)
+    1. ![pict06](pict/chapt2.3.2.jpg)
+1. Applying Domain to Attributes in IE
+    1. ![pict04](pict/ledo21504.png)
+    1. ![pict06](pict/chapt2.3.4.jpg)
 
 #### 4. Association Name
 
