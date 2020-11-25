@@ -81,12 +81,45 @@ img[alt=pict08] {
 
 #### 1. Data Model Notations
 
-1. 
+1. UML
+    1. Unified Modeling Language
+    1. Ideal for
+        1. conceiving **database models**
+    1. Example
+        1. ![pict08](pict/chapt1.1.1.jpg)
+1. IE
+    1. Information Engineering
+    1. Ideal for
+        1. specific details of **database design**
+    1. Example
+        1. ![pict08](pict/chapt1.1.2.jpg)
 
 
 #### 2. UML Versus IE - Conceptual, Logical, and Physical
 
-1. 
+1. Three Models
+    1. Conceptual data model
+        1. major entity types
+        2. relationship types
+    1. Logical data model
+        1. attribute types
+        1. minor entity types
+    1. Physical
+        1. Database Design
+            1. tables
+            1. keys
+            1. indices
+            1. constraints
+1. UML is for
+    1. Conceptual 
+    1. Logical
+1. IE is for
+    1. Physical
+1. UML is used when...
+    1. Researching BusReq
+    1. Generate content / scope
+1. IE is used when ...
+    1. Genereate Code
 
 
 </details>
