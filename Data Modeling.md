@@ -187,55 +187,77 @@ img[alt=pict08] {
 
 #### 4. Association Name
 
-1. 
+1. Basic Defintion
+    1. Group of links with common structure / meaning
+1. Implemented with
+    1. Link
+        1. a relationship amoung objects
+1. Implement Links within UML
+    1. ![pict04](pict/chapt2.4.1.jpg)
+    1. ![pict04](pict/chapt2.4.2.jpg)
+1. UML vs IE
+    1. UML Link
+        1. IE Relationship
+    1. UML Association
+        1. IE Relationship Type
+1.  Implement Relationships within IE
+    1. ![pict06](pict/chapt2.4.3.jpg)
+    1. ![pict06](pict/chapt2.4.4.jpg)
+    1. ![pict04](pict/chapt2.4.5.jpg)
+    1. ![pict06](pict/chapt2.4.6.jpg)
 
 
-#### 5. Association End
 
-1. 
-
-
-#### 6. Multiplicity - UML
-
-1. 
-
-
-#### 7. Multiplicity - IE
-
-1. 
-
-
-#### 8. Generalization - UML
-
-1. 
-
-
-#### 9. Generalization - IE
+#### 5. IE Entity Type and Relationship Type
 
 1. 
 
 
-#### 10. Abstract vs. Concrete Superclass
+
+
+#### 6. Association Name
+
+1. 
+
+    
+
+
+#### 7. Association End
 
 1. 
 
 
-#### 11. Practical Tips
+#### 8. Multiplicity - UML
 
 1. 
 
 
-#### 12. Self Assessment
+#### 9. Multiplicity - IE
 
 1. 
 
 
-#### 1. 
+#### 10. Generalization - UML
 
 1. 
 
 
-#### 2. 
+#### 11. Generalization - IE
+
+1. 
+
+
+#### 12. Abstract vs. Concrete Superclass
+
+1. 
+
+
+#### 13. Practical Tips
+
+1. 
+
+
+#### 14. Self Assessment
 
 1. 
 
