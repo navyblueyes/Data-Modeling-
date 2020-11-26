@@ -410,13 +410,31 @@ img[alt=pict08] {
 
 #### 5. Ordered Association
 
-1. Association that imposes sequencing on Many Association end
-    1. 
+1. Basic Definition
+    1. Association that imposes sequencing on Many Association end
+1. IE - no ordered association - but combine sequence and AK
+    1. ![pict08](pict/chapt3.5.1.jpg)
+    1. Adding a sequence number
+        1. ![pict08](pict/chapt3.5.2.jpg)
+        1. ![pict08](pict/chapt3.5.3.jpg)
+        1. ![pict08](pict/chapt3.5.4.jpg)
+    1. Combining `flightId` and `sequenceNumber` to form a unique ID
+        1. ![pict08](pict/chapt3.5.5.jpg)
+        1. ![pict08](pict/chapt3.5.6.jpg)
+        1. ![pict08](pict/chapt3.5.7.jpg)
+        1. ![pict08](pict/chapt3.5.8.jpg)
 
 
 #### 6. Qualified Association -(UML)
 
-1. 
+1. Basic definition
+    1. qualifier is an attribute used to identify individual entry
+    1. qualified association is a link where all entrys have a qualifier attribute to distinquish themselves in a many association end
+1. Within UML
+    1. ![pict08](pict/chapt3.6.1.jpg)
+    1. ![pict04](pict/chapt3.6.2.jpg)
+    1. WARNING WE A USING A DUPLICATE... TWO LOCATIONS FOR `accountNumber`
+        1. ![pict08](pict/chapt3.6.3.jpg)
 
 
 
