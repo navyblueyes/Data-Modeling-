@@ -345,29 +345,73 @@ img[alt=pict08] {
 
 #### 1. Identity
 
-1. 
+1. Definition
+    1. Property of Object
+    1. Distinguishes Object from Others
+1. Different between UML and IE
+    1. UML
+        1. ![pict08](pict/chapt3.1.1.jpg)
+    1. IE
+        1. Existance Based Identity
+            1. Identifier Code is automatically generated upon entry
+        1. Value Based Identity
+            1. Identity consist of real world attributes make up primary key
+                1. PROBLEM... lack of attributes leads to problems
 
 
 #### 2. Derived Data
 
-1. 
+1. Data computed by stored data
+    1. Age from birth date
+    1. Pros
+        1. More data
+    1. Cons
+        1. More complications
+        1. More bulk
+1. Within UML
+    1. **milageMonthlyAmount** is derived from **FreqFlyAccount** divided by **30 days**
+    1. ![pict08](pict/chapt3.2.1.jpg)
+    1. ![pict08](pict/chapt3.2.2.jpg)
 
 
 
 #### 3. Current Versus Historical Data
 
-1. 
-
+1. Design Decision
+    1. Does historical data matter?
+        1. Will having a history of past addresses help in any capacity?
+        1. Will it hinder or complicate data?
+1. ![pict06](pict/chapt3.3.1.jpg)
 
 
 #### 4. Association Class
 
-1. 
-
+1. UML Implementation
+    1. ![pict06](pict/chapt3.4.1.jpg)
+    1. ![pict06](pict/chapt3.4.2.jpg)
+    1. ![pict06](pict/chapt3.4.3.jpg)
+    1. ![pict08](pict/chapt3.4.4.jpg)
+    1. ![pict08](pict/chapt3.4.5.jpg)
+    1. ![pict08](pict/chapt3.4.6.jpg)
+1. IE Implementation
+    1. ![pict08](pict/chapt3.4.7.jpg)
+        1. Identifying relationship = solid line
+        1. Non-identifying relationship = dotted line
+    1. ![pict08](pict/chapt3.4.8.jpg)
+    1. ![pict08](pict/chapt3.4.9.jpg)
+        1. ordinary class has UNIQUE IDENTIFIER
+    1. Association Class vs Ordinary Class
+        1. Association Class
+            1. When you want the latest pairing
+                1. BUILT INTO IT'S PRIMARY KEY
+        1. Ordinary Class
+            1. When you want history pairing
+                1. History is DISASSOCIATED from PRIMARY KEY
 
 #### 5. Ordered Association
 
-1. 
+1. Association that imposes sequencing on Many Association end
+    1. 
 
 
 #### 6. Qualified Association -(UML)
