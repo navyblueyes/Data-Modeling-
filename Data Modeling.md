@@ -435,48 +435,117 @@ img[alt=pict08] {
     1. ![pict04](pict/chapt3.6.2.jpg)
     1. WARNING WE A USING A DUPLICATE... TWO LOCATIONS FOR `accountNumber`
         1. ![pict08](pict/chapt3.6.3.jpg)
+    1. ![pict04](pict/chapt3.6.4.jpg)
 
 
 
 #### 7. Qualified Association -(IE)
 
-1. 
+1. Adding a Qualifier - Via `Constraint`
+    1. ![pict06](pict/chapt3.7.1.jpg)
+    1. ![pict06](pict/chapt3.7.2.jpg)
+    1. ![pict06](pict/chapt3.7.3.jpg)
+    1. ![pict06](pict/chapt3.7.4.jpg)
+1. Adding `AccountNumber` and `IssuerID`, you get a unique FreqFlyerAccount
 
 
 #### 8. Large Taxonomies
 
-1. 
+1. More subject = Larger taxonomies
+    1. Hard to comprehend
+    1. Instable
+    1. A lot of effort
+1. Avoid larger than 20 classes
+    1. Shift abstraction and use metadata
+        1. ![pict06](pict/chapt3.8.1.jpg)
+    1. 
 
 
 #### 9. Package
 
-1. 
+1. What do you do with a LARGE MODEL
+    1. Large diagram of smaller pieces
+    1. Division of lesser diagrams, model is spread amongst smaller diagrams
+1. UML
+    1. Does option 1
+1. IE
+    1. Does both
+1. Lesser Diagram = package
+    1. Package = anything made of elements
+        1. elements = classes / associations / generalizations
+1. Examples
+    1. Since, FreqFlyer Model can fit in one page
+        1. ![pict06](pict/chapt3.8.2.jpg)
+    1. These is no need... but if you need to... 
+        1. ![pict08](pict/chapt3.8.3.jpg)
+1. In IE... it's called subject area
 
 
 
 #### 10. Abridged UML Metamodel
 
-1. 
+1. Used to review
+    1. ![pict06](pict/chapt3.10.1.jpg)
+        1. Only shows attributes relevant for associations or generalizations
 
 
 #### 11. Abridged IE Metamodel
 
-1. 
+1. Used to review
+    1. ![pict06](pict/chapt3.11.1.jpg)
 
 
 #### 12. Modeling Pitfalls
 
-1. 
+1. Do **NOT** create a class for a reference
+    1. **USE** reference ends
+        1. ![pict06](pict/chapt3.12.1.jpg)
+1. Avoid parallel attributes
+    1. ![pict06](pict/chapt3.12.2.jpg)
+1. Avoid **anonymous** attributes
+    1. ![pict06](pict/chapt3.12.3.jpg)
+1. Avoid Symmetric Associations
+    1. Same multiplicity on both ends
+    1. ![pict06](pict/chapt3.12.4.jpg)
+    1. ![pict06](pict/chapt3.12.5.jpg)
+1. Avoid 20+ classes and large models
+
 
 
 #### 13. Practical Tips
 
-1. 
+1. Pay attention to identity
+1. Use of existence-based identity
+1. Avoid Derived data
+1. Qualifier for many assoiciations
+1. Avoid large models [4 deep]
+1. Aim for simplicity
+1. Model review constantly
+
 
 
 #### 14. Assessment Test -  Advanced Modeling
 
-1. 
+1. ![pict08](pict/chapt3.14.1.jpg)
+    a. ![pict08](pict/chapt3.14.1.a.jpg)
+    b. ![pict08](pict/chapt3.14.1.b.jpg)
+    c. ![pict08](pict/chapt3.14.1.c.jpg)
+        1. ![pict06](pict/chapt3.14.1.answer.jpg)
+1. ![pict08](pict/chapt3.14.2.jpg)
+    1. Checking account = existence based identity
+    1. Statement = value based identity
+    1. ![pict08](pict/chapt3.14.2.answer.jpg)
+1. ![pict08](pict/chapt3.14.3.jpg)
+    1. ![pict08](pict/chapt3.14.3.answer.jpg)
+    1. depends on data 
+        1. merely role = wrap
+        1. many movie to many people
+        1. single movie to many people
+1. ![pict08](pict/chapt3.14.4.jpg)
+    1. Cascade of qualifications can occur
+1. ![pict08](pict/chapt3.14.5.jpg)
+    1. Yes. Generalization is allowed. Never exceeds 4 layers or 20 classes.
+    1. 
 
 
 
@@ -500,7 +569,10 @@ img[alt=pict08] {
 
 #### 1. Problem Statement
 
-1. 
+1. First Example
+    1. ![pict08](pict/chapt4.1.3.jpg)
+    1. ![pict08](pict/chapt4.1.1.jpg)
+    1. ![pict08](pict/chapt4.1.2.jpg)
 
 
 #### 2. Finding Classes
