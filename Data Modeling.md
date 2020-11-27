@@ -577,12 +577,56 @@ img[alt=pict08] {
 
 #### 2. Finding Classes
 
-1. 
+1. Read about Ordering Food --> create order class
+    1. ![pict08](pict/chapt4.2.1.jpg)
+1. Read about one sandwich shop brand with multiple  locations
+    1. ![pict08](pict/chapt4.2.2.jpg)
+1. Read about multiple menu
+    1. ![pict08](pict/chapt4.2.3.jpg)
+1. Read about customers
+1. Read about menuItems
+1. Read about ListPrice
+1. Read about Discount
+1. Read about Sandwich with bread, cheese, meat
+1. Read about Delivery
+1. Read about Address
+1. Read about Payment and CreditCard
+    1. ![pict08](pict/chapt4.2.4.jpg)
+
+
 
 
 #### 3. Finding Associations - Part 1
 
-1. 
+1.  Think about relationships one at a time
+    1. What is the Relationship Between **Order** and **SandwichShop**  website [think in both directions]
+        1. One **SandwichShop** website has Many **Orders**
+        1. One **Order** has ONLY One **SandwichShop**
+        1. Therefore...
+            1. One to Many
+                1. ![pict04](pict/chapt4.3.1.jpg)
+    1. What is the Relationship Between **SandwichShop**  website and **Location** [think in both directions]
+        1. One **SandwichShop** website has Many **Location**s
+        1. One **Location** has ONLY One **SandwichShop** website
+        1. Therefore...
+            1. One to Many
+                1. ![pict04](pict/chapt4.3.2.jpg)
+    1. PROBLEM!! 
+        1. What is wrong with this picture?
+            1. ![pict04](pict/chapt4.3.3.jpg)
+        1. Solution
+            1. Orders are based on location NOT ON WEBSITE
+            1. ![pict04](pict/chapt4.3.4.jpg)
+        1. Moral of the story
+            1. Dependency dictates order
+    1. Where does **Menu** fit in with **Order**, **SandwichShop**  website and **Location** 
+        1. How to break it down
+            1. Where does **Menu** vary the most?
+        1. **Menu** varys the most with **Location**
+            1. ![pict04](pict/chapt4.3.5.jpg)
+            
+    
+    
 
 
 #### 4. Finding Associations - Part 2
