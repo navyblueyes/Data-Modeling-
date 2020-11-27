@@ -625,13 +625,25 @@ img[alt=pict08] {
         1. **Menu** varys the most with **Location**
             1. ![pict04](pict/chapt4.3.5.jpg)
             
-    
-    
+    1. How Does **MenuItem**, **ListPrice** and **Discount** Relate to One Another?
+        1. **ListPrice** varies based on **Discount**
+        1. **MenuItem** has one **ListPrice**
+        1. **MenuItem** can have many **Discount**
+        1. **Discount** can apply to many **MenuItem**
+        1. ![pict06](pict/chapt4.3.6.jpg)
 
 
 #### 4. Finding Associations - Part 2
 
-1. 
+1.  Think about relationships one at a time
+    1. What is the Relationship Between **Order** and **Delivery** [think in both directions]
+        1. A **Order** MAY or MAY NOT have a means of **Delivery**
+        1. **Delivery** method can have many **Orders**
+        1. Therefore...
+            1. Optional to Many
+                1. ![pict06](pict/chapt4.3.7.jpg)
+    1. Where does Address fit in? With **Order**? 
+    
 
 
 #### 5. Problem Statement
