@@ -642,7 +642,34 @@ img[alt=pict08] {
         1. Therefore...
             1. Optional to Many
                 1. ![pict06](pict/chapt4.3.7.jpg)
-    1. Where does Address fit in? With **Order**? 
+    1. Where does Address fit in? With **Order**? Or with **Delivery**?
+        1. It belongs with **Order**.
+        1. Since orders can be picked up... 
+            1. **Order** MAY or MAY NOT have **Address**
+            1. **Address** can be in MANY **Order**'s
+                1. ![pict06](pict/chapt4.3.8.jpg)
+    1. Where does **Address** fit with **Customer**?
+        1. **Address** can have MANY **Customer**
+            1. Friend ordering pizza for you
+        1. **Customer** MAY or MAY NOT have an **Address**
+            1. ![pict04](pict/chapt4.3.9.jpg)
+    1. How does **Payment** and **CreditCard** relate to one another?
+        1. **Payment** MUST HAVE ONE **CreditCard**
+        1. **CreditCard** can apply to MANY **Payment** 
+            1. ![pict06](pict/chapt4.3.10.jpg)
+    1. How does **Payment** and **Order** relate to one another?
+        1. **Payment** can only apply to ONE **Order**
+        1. **Order** MAY or MAY NOT have **Payment**
+            1. ![pict06](pict/chapt4.3.11.jpg)
+    1. How does **Location** and **Address** relate to one another?
+        1. **Location** of Sandwich Shop MAY or MAY NOT have an **Address**
+        1. **Address** of Sandwich Shop can only be in ONE **Location** 
+            1. ![pict06](pict/chapt4.3.12.jpg)
+1. Complete Picture
+    1. ![pict06](pict/chapt4.3.13.jpg)
+    
+    
+        
     
 
 
@@ -651,27 +678,27 @@ img[alt=pict08] {
 1. 
 
 
-#### 6. Finding Generalizations
+#### 5. Finding Generalizations
 
 1. 
 
 
-#### 7. Iterating And Refining The Model - Part 1
+#### 6. Iterating And Refining The Model - Part 1
 
 1. 
 
 
-#### 8. Iterating And Refining The Model - Part 2
+#### 7. Iterating And Refining The Model - Part 2
 
 1. 
 
 
-#### 9. Adding Attributes
+#### 8. Adding Attributes
 
 1. 
 
 
-#### 10. Cleaning Up Layout
+#### 9. Cleaning Up Layout
 
 1. 
 
