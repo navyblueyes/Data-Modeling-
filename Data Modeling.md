@@ -1148,20 +1148,68 @@ img[alt=pict08] {
 #### 4. Data Warehouses - Part 2
 
 1. Star Schema
-    1. Basic Defintion
+    1. Basic Definition
         1. Data modeling paradigm surrounded by multiple dimensions
-    
+1. Fact
+    1. Basic Definition
+        1. Table that measures the performance of a business
+1. Fact Grain
+    1. Basic Definition
+        1. Lowest level of detail for which records may be defined
+1. Dimension
+    1. Basic Definition
+        1. Concept that provides a basis for facts
+    1. Example
+        1. Phone record
+            1. setting effective date
+            1. expect phone numbers to change
+1. Conformed Dimension
+    1. Basic Definition
+        1. Concept with consistent meaning that is applicable to ALL FACTS in data warehouse
+
+
 
 
 
 #### 5. Data Warehouses - Part 3
 
-1. 
+1. Why important
+    1. Business Insight
+    1. Historical Trends
+    1. Understandable
+    1. Efficient to get analysis, segregated from day to day
+1. Steps to construct
+    1. Start woth data marts
+        1. Smaller scope and relegate to a developer/team
+        1. Must be able to combine with other marts for form larger warehouse
+    1. Bus Architecture
+        1. Set of Dimensions in all Facts
+        1. Avoid summaries, keep facts with most granualar detail
+    1. Ideal Outcome
+        1. 10-25 facts [tables]
+        1. 5-25 dimensions per fact
+        
 
 
 #### 6. Master Data Models
 
-1. 
+1. Basic Definition
+    1. Data Model that standardizes and cleanses the data for critical concept
+1. Example
+    1. ![pict08](pict/chapt7.6.1.jpg)
+1. Why use it
+    1. Data Consistency
+    1. Avoid Manually cleaning data
+    1. Faster Development / Reports
+    1. Ideal for Data Warehouses
+1. Steps to construct
+    1. Determine focus
+    1. Start with basic model
+    1. Consider existence dependency
+        1. other tables will use entries
+        1. enforce standards on other tables
+1. Example
+    1. ![pict08](pict/chapt7.6.2.jpg)
 
 
 
@@ -1184,7 +1232,12 @@ img[alt=pict08] {
 
 #### 1. Schema Adjustments
 
-1. 
+1. Previously on...
+    1. Difference between Logical / Physical
+        1. Logical
+            1. Generated from conceptual model
+        1. Physical
+            1. Adding design decisions
 
 
 #### 2. Attribute Details - Part 1
