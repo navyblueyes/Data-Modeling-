@@ -884,13 +884,21 @@ img[alt=pict08] {
 
 #### 6. Creating Relationship Types - Part 1
 
+1. Non Identifying relationship from `Customer` to `Order`
+    1. ![pict08](pict/chapt5.6.1.jpg)
+    1. ![pict08](pict/chapt5.6.2.jpg)
+1. ![pict08](pict/chapt5.6.3.jpg)
+1. ![pict08](pict/chapt5.6.4.jpg)
 1. 
 
 
 
 #### 7. Creating Relationship Types - Part 2
 
-1. 
+1. Problem...
+    1. Account Customer does NOT have a PK
+1. Location NEEDS an Address
+    1. ![pict08](pict/chapt5.6.5.jpg)
 
 
 #### 8. Creating Relationship Types - Part 3
@@ -901,12 +909,13 @@ img[alt=pict08] {
 
 #### 9. Subtyping
 
-1. 
+1. ![pict08](pict/chapt5.9.1.jpg)
 
 
 #### 10. Adding Alternate Keys
 
-1. 
+1. Right click -> Key Group Properties -> Button 'New' -> new alternate key
+    1. 
 
 
 
