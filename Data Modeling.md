@@ -977,24 +977,50 @@ img[alt=pict08] {
         1. Second
     1. ![pict08](pict/chapt6.2.1.jpg)
     1. ![pict08](pict/chapt6.2.2.jpg)
+1. When Normal Forms doesn't get the job done
+    1. ![pict06](pict/chapt6.2.3.jpg)
+    1. ![pict06](pict/chapt6.2.4.jpg)
+1. Why violate Normal Form
+    1. Used to increase database READ performance
+    
     
         
 
 
 #### 3. Constraints
 
-1. 
+1. Restriction for database storage
+    1. Implicit
+        1. Qualifier
+            1. Required ID 
+                1. Airline ID + Account Number
+        1. Generalization Discriminator
+            2. Enum-like behavior
+            1. Only defined ID win Generalization structure 
+    2. Explicit
 
 
 #### 4. Hillard Graph Complexity
 
-1. 
+1. ![pict08](pict/chapt6.3.1.jpg)
+1. How to calculate?
+    1. Longest Traversal
+    1. More choice = complication
+1. Metrics
+    1. Order = total nodes
+    1. Size = total edges
+    1. Degree = number of edges in a node
+    1. Geodesic distance = minimum number of nodes to traverse
+    1. Average degree = average edges per node
+    1. Average geodesic distance = average edges to traverse between all node pairs
+    1. Maximum geodesic distance = largest number edges to traverse between all node pairs
 
-
+1. ![pict08](pict/chapt6.3.2.jpg)
 
 #### 5. Hoberman Data Model Scorecard
 
-1. 
+1. ![pict08](pict/chapt6.4.1.jpg)
+1. ![pict08](pict/chapt6.4.2.jpg)
 
 
 
@@ -1014,17 +1040,35 @@ img[alt=pict08] {
 
 #### 1. Operational Data Models
 
-1. 
+1. Routine operations [thousands of queries]
+1. Online Transaction Processing
+1. Why important
+    1. Allows change
+1. To construct
+    1. Start with UML
+        1. focus on classes
+    2. Work on IE based on UML
 
 
 #### 2. Enterprise Data Models
 
-1. 
+1. ENTIRE Organization
+1. Only focus on most important
+1. Simplified Conceptual model
+    1. Typical UML
+1. Important for.
+    1. Organizational vision
+    1. Data consistency
+    1. Allow for Reuseable components
+    1. Data warehouses
+1. Construction process
+    1. Application content
+    1. Review with business staff
 
 
 #### 3. Data Warehouses - Part 1
 
-1. 
+1. B
 
 
 #### 4. Data Warehouses - Part 2
