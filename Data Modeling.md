@@ -929,12 +929,15 @@ img[alt=pict08] {
         1. Logical can reverse engineer
         1. Physical
             1. Target a database
+            1. Forward Engineer to generate schema
         
 
 
 
 #### 13. ERwin Techniques - Part 2
 
+1. Copy a table
+    1. ![pict06](pict/chapt5.13.1.jpg)
 1. 
 
 
@@ -951,12 +954,31 @@ img[alt=pict08] {
 
 #### 1. Model Quality
 
-1. 
+1. Determine database structure
+1. Choice of representation
+    1. Define difficulty
+1. Choices
+    1. Normal Form
+        1. Defines consistency
+    1. Constraint
+        1. Boolean condition that data myst satisfy for database storage
+    1. Hillard's graph complexity
+        1. Equates data model to a undirected graph
+        1. Computes complexity
+    1. Hoberman's data quality score
+
 
 
 #### 2. Normal Forms
 
-1. 
+1. Guideline for data consistency amoung tables during updates
+    1. Types
+        1. First
+        1. Second
+    1. ![pict08](pict/chapt6.2.1.jpg)
+    1. ![pict08](pict/chapt6.2.2.jpg)
+    
+        
 
 
 #### 3. Constraints
