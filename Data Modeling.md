@@ -982,9 +982,55 @@ img[alt=pict08] {
     1. ![pict06](pict/chapt6.2.4.jpg)
 1. Why violate Normal Form
     1. Used to increase database READ performance
-    
-    
-        
+
+
+1. Going over Normal Form 
+    1. Starting with a Sales Record
+        1. ![pict08](pict/chapt6.2.5.jpg)
+
+    1. Attaining <ins>**1st Normal Form**</ins>
+
+        1. Qualities
+            1. Each cell = 1 Value
+            1. All entities in column... same type
+            1. Each row... MUST BE UNIQUELY IDENTIFIES
+        1. What is wrong with the example above...
+            1. ![pict08](pict/chapt6.2.6.jpg)
+        1. What it should look like..
+            1. ![pict08](pict/chapt6.2.7.jpg)
+
+1. Going over <ins>**2nd Normal Form**</ins>
+    1. Starting with...
+        1. ![pict08](pict/chapt6.2.7.jpg)
+    1. Attaining <ins>**2nd Normal Form**</ins>
+        1. Qualities
+            1. All entries ARE DEPENDENT on Primary Key
+        1. What is wrong with the example above...
+            1. ![pict08](pict/chapt6.2.8.jpg)
+        1. What should it look like...
+            1. ![pict08](pict/chapt6.2.9.jpg)
+
+1. Going over <ins>**3rd Normal Form**</ins>
+    1. Starting with...
+        1. ![pict08](pict/chapt6.2.9.jpg)
+    1. Attaining <ins>**2nd Normal Form**</ins> 
+        1. Qualities
+            1. All entries can be determined ONLY... BY... PRIMARY ...KEY
+        1. What is wrong with the example above
+            1. ![pict08](pict/chapt6.2.10.jpg)
+        1. What it should look like?
+            1. ![pict08](pict/chapt6.2.11.jpg)
+
+1. Going over <ins>**4th Normal Form**</ins>
+    1. Starting with...
+        1. ![pict08](pict/chapt6.2.11.jpg)
+    1. Attaining  <ins>**4th Normal Form**</ins>
+        1. Qualities
+            1. No MULTI-VALUED dependencies
+        1. What is wrong with the example above
+            1. ![pict08](pict/chapt6.2.12.jpg)
+        1. What it should look like?
+            1. ![pict08](pict/chapt6.2.13.jpg)
 
 
 #### 3. Constraints
@@ -995,7 +1041,7 @@ img[alt=pict08] {
             1. Required ID 
                 1. Airline ID + Account Number
         1. Generalization Discriminator
-            2. Enum-like behavior
+            1. Enum-like behavior
             1. Only defined ID win Generalization structure 
     2. Explicit
 
