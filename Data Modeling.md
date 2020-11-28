@@ -915,18 +915,21 @@ img[alt=pict08] {
 #### 10. Adding Alternate Keys
 
 1. Right click -> Key Group Properties -> Button 'New' -> new alternate key
-    1. 
-
-
-
-#### 11. Cleaning Up The Layout
-
-1. 
+    1. Good Idea to pick names
+        1. ![pict06](pict/chapt5.10.1.jpg)
+    
 
 
 #### 12. ERwin Techniques - Part 1
 
-1. 
+1. Blank
+    1. Go for Logical
+1. Difference between Logical / Physical
+    1. Available commands
+        1. Logical can reverse engineer
+        1. Physical
+            1. Target a database
+        
 
 
 
