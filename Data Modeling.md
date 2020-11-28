@@ -670,67 +670,121 @@ img[alt=pict08] {
     
     
         
-    
-
-
-#### 5. Problem Statement
-
-1. 
 
 
 #### 5. Finding Generalizations
 
-1. 
+1. Two ways of finding generalization
+    1. Top-down
+        1. Requirements dictate structure
+    1. Bottom-Up
+        1. Models can dictate structure
+
+1. Top-down
+    1. Requirement - online ordering
+        1. Foods make up the MenuItem
+            1. ![pict04](pict/chapt4.5.1.jpg)
 
 
 #### 6. Iterating And Refining The Model - Part 1
 
-1. 
+1. Problem - Order can consist of MANY **MenuItem**'s
+    1. Two Approaches
+        1. Edit the association obetween **Order** and **MenuItem**
+            1. Include **quantity** as an attribute
+        1. Create another class... **OrderItem**
+            1. WHY... symmetry
+                1. **Menu** ... **MenuItem**... 
+                **Order**... **OrderItem**
+            1. ![pict06](pict/chapt4.6.1.jpg)
+
+1. Problem -- how to transfer cost
+    1. `OrderItem` needs to be broadened to incl. delivery, sales tax
+        1. THEREFORE a `OrderItem` MAY OR MAY NOT have a `MenuItem`
+    1. `OrderItem` needs to include the cost AFTER discount
+        1. Need to add an attribute of `orderItemAmount`
+    1. ![pict04](pict/chapt4.6.2.jpg)
+
 
 
 #### 7. Iterating And Refining The Model - Part 2
 
-1. 
+1. More abstraction for fooditems to incl sauces, type of drink
+    1. broadened to be `ItemIngredient`
+        1. to include `topping` and `bread` categories
+    1. broaded to incl. `IngredientChoice`
+        1. to include `white` and `rye` bread
+    1. ![pict06](pict/chapt4.7.1.jpg)
+1. Problems... can't add constraints... chicken sandwich can become a meatball sandwich
+    1. SOLUTION - will be low level code... need to add notes for developers to restrain `IngredientChoice` based on `MenuItem`
+
 
 
 #### 8. Adding Attributes
 
-1. 
+1. Overall workflow
+    1. Problem statement focuses on `class` and `associations`
+    1. Modeler will need to think through `attributes` of both `class` and `associations`
+1. ![pict08](pict/chapt4.8.1.jpg)
 
 
 #### 9. Cleaning Up Layout
 
-1. 
+1. ![pict08](pict/chapt4.9.1.jpg)
 
 
 #### 11. Simplifying The Model
 
-1. 
+1. Always consider using metadata via specifying every class/subclass
+
+1. Three tiers of data change
+    1. Database is hardest
+    1. Application is medium
+    1. UI is easiest
 
 
 #### 12. Evolving A Model - Part 1
 
-1. 
+1. Always look at other apps for ideas
+1. Consider guest / sign-in checkout
+    1. consider an account-less customer
+    1. Account customers
+        1. can store credit-cards and addresses
+        
 
 
 #### 13. Evolving A Model - Part 2
 
-1. 
+1. Adding ad-hoc and account customer
+    1. Account customer gets the `address` `perferredAddress` `creditcards` and `perferredCredit`
+        1. ![pict08](pict/chapt4.11.1.jpg)
+    
 
 
 #### 14. Enterprise Architect Techniques - Part 1
 
-1. 
+1. Creating a Blank Project
+    1. ![pict06](pict/chapt4.13.1.jpg)
+    1. ![pict06](pict/chapt4.13.2.jpg)
+    1. ![pict06](pict/chapt4.13.3.jpg)
 
 
 #### 15. Enterprise Architect Techniques - Part 2
 
-1. 
+1. Creating a package
+    1. ![pict06](pict/chapt4.15.3.jpg)
+1. Implementing classes
+    1. ![pict06](pict/chapt4.15.1.jpg)
+    1. Right-click to add attributes
+        1. ![pict06](pict/chapt4.15.2.jpg)
+1. Copying class from another package
+    1. Left-click from Project Browser... drag into your workspace
 
 
 #### 16. Enterprise Architect Techniques - Part 3
 
-1. 
+1. Specify multiplicity
+    1. ![pict06](pict/chapt4.16.1.jpg)
 
 
 
@@ -745,12 +799,27 @@ img[alt=pict08] {
 
 #### 1. Creating Subject Areas
 
-1. 
+1. IE takes more space...
+    1. If UML is crowded... expect IE to be split
+        1. Split based on `Subject Areas`
+1. Two subject Areas
+    1. Order
+        1. ![pict08](pict/chapt5.1.1.jpg)
+    1. OrderItem
+        1. ![pict08](pict/chapt5.1.2.jpg)
+1. When using subject areas...
+    1. Think of how they are connected
+        1. ![pict04](pict/chapt5.1.3.jpg)
 
 
 #### 2. Creating Entity Types
 
-1. 
+1. Create SubjectAreas
+    1. ![pict06](pict/chapt5.2.1.jpg)
+1. Create Entities within Order
+    1. ![pict06](pict/chapt5.2.2.jpg)
+1. Create Entities within OrderItem
+    1. ![pict06](pict/chapt5.2.3.jpg)
 
 
 #### 3. Creating Domains
