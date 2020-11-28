@@ -824,18 +824,62 @@ img[alt=pict08] {
 
 #### 3. Creating Domains
 
-1. 
-
+1. Create `objectIdentifier` that is...
+    1. Domain parent of **number**
+    1. Logical data type of `Long`
+        1. ![pict08](pict/chapt5.3.1.jpg)
+    1. ![pict08](pict/chapt5.3.2.jpg)
+    1. ![pict08](pict/chapt5.3.3.jpg)
+    1. ![pict08](pict/chapt5.3.4.jpg)
+    1. ![pict08](pict/chapt5.3.5.jpg)
+    1. ![pict08](pict/chapt5.3.6.jpg)
+    1. ![pict08](pict/chapt5.3.7.jpg)
+    1. ![pict08](pict/chapt5.3.8.jpg)
+    1. ![pict08](pict/chapt5.3.9.jpg)
+    1. ![pict08](pict/chapt5.3.10.jpg)
+    1. ![pict08](pict/chapt5.3.11.jpg)
+    1. ![pict08](pict/chapt5.3.12.jpg)
+    1. ![pict08](pict/chapt5.3.13.jpg)
+    1. ![pict08](pict/chapt5.3.14.jpg)
 
 #### 4. Adding Attributes - Part 1
 
-1. 
+1. Add attributes to each class, domain for each attribute
+    1. ![pict08](pict/chapt5.4.1.jpg)
+    1. ![pict08](pict/chapt5.4.2.jpg)
+    1. ![pict08](pict/chapt5.4.3.jpg)
+1. Work on
+    1. Account Number
+        1. ![pict08](pict/chapt5.4.4.jpg)
+    1. Order
+        1. ![pict08](pict/chapt5.4.5.jpg)
+    1. Delivery Type
+        1. ![pict08](pict/chapt5.4.6.jpg)
+    1. Location
+        1. ![pict08](pict/chapt5.4.7.jpg)
+    1. SandwichShop
+        1. ![pict08](pict/chapt5.4.8.jpg)
+    1. Address
+        1. ![pict08](pict/chapt5.4.9.jpg)
+    1. Creditcard
+        1. ![pict08](pict/chapt5.4.10.jpg)
+    1. Payment
+        1. ![pict08](pict/chapt5.4.11.jpg)
+    
 
 
 
 #### 5. Adding Attributes - Part 2
 
-1. 
+1. More attributes
+    1. ![pict08](pict/chapt5.5.1.jpg)
+    1. ![pict08](pict/chapt5.5.2.jpg)
+    1. ![pict08](pict/chapt5.5.3.jpg)
+    1. ![pict08](pict/chapt5.5.4.jpg)
+    1. ![pict08](pict/chapt5.5.5.jpg)
+    1. ![pict08](pict/chapt5.5.6.jpg)
+    1. ![pict08](pict/chapt5.5.7.jpg)
+    1. ![pict08](pict/chapt5.5.8.jpg)
 
 
 #### 6. Creating Relationship Types - Part 1
