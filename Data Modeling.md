@@ -1114,12 +1114,43 @@ img[alt=pict08] {
 
 #### 3. Data Warehouses - Part 1
 
-1. B
+1. Basic Definition
+    1. Database dedicated for Analysis and Reports
+    1. Maintain history
+    1. Focuses on available data and data that has been queried
+1. Associated with..
+    1. OLAP - OnLine Analytical Processing
+    1. ETL - Extract Transform Load
+        1. Scripts that reads databases/streams and stores into warehouse
+1. Sample
+    1. Sandwich Shop
+        1. Order Data Warehouse
+            1. ![pict08](pict/chapt7.3..jpg)
+        1. Datawarehouse would focus on...
+            1. Top customers
+            1. Are orders affected by...
+                1. day of week
+                1. holidays
+            1. Locations
+                1. What has the most orders
+        1. OrderItem Data Warehouse
+            1. ![pict08](pict/chapt7.3.1.jpg)
+        1. Data Warehouse would focus on...
+            1. Ingredients
+                1. What are the most requested
+                1. Does it vary by month
+                1. Does advertising affect sales
+                
+        
+
 
 
 #### 4. Data Warehouses - Part 2
 
-1. 
+1. Star Schema
+    1. Basic Defintion
+        1. Data modeling paradigm surrounded by multiple dimensions
+    
 
 
 
