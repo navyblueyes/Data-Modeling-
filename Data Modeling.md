@@ -1592,12 +1592,15 @@ img[alt=pict08] {
 
 #### 1. Creating A New Database
 
-1. 
-
+1. Easiest way
+    1. SQL Server Management Studio
+        1. ![pict06](pict/chapt9.1.1.jpg)
 
 #### 2. Executing Schema
 
-1. 
+1. ![pict06](pict/chapt9.1.2.jpg)
+    1. SELECT AND EXECUTE
+        1. ![pict06](pict/chapt9.1.3.jpg)
 
 
 
@@ -1629,135 +1632,54 @@ img[alt=pict08] {
 
 
 
-
-
-
-
-### Creating MS Access Database
-<details>
-<summary>Expand</summary>
-
-#### 1. Generating An ERwin Schema
-
-1. 
-
-
-#### 2. Creating Tables
-
-1. 
-
-
-#### 3. Creating Indexes
-
-1. 
-
-
-#### 4. Creating Constraints And Default Values
-
-1. 
-
-
-
-#### 5. Defining Foreign Keys
-
-1. 
-
-
-#### 6. Creating Views
-
-1. 
-
-
-
-#### 7. Loading Sample Data
-
-1. 
-
-
-#### 8. Querying Sample Data
-
-1. 
-
-
-
-</details>
-<hr />
-
-
-
-
-
-
-### Software Engineering
-<details>
-<summary>Expand</summary>
-
-#### 1. Development Frameworks
-
-1. 
-
-
-#### 2. Agile Data Modelling
-
-1. 
-
-
-#### 3. Documenting A Model - Part 1
-
-1. 
-
-
-#### 4. Documenting A Model - Part 2
-
-1. 
-
-
-
-#### 5. Presenting A Model
-
-1. 
-
-
-
-</details>
-<hr />
-
-
-
-
-
-
-
 ### Data Modeling Process
 <details>
 <summary>Expand</summary>
 
 #### 1. Overview
 
-1. 
+1. Tree
+    1. ![pict06](pict/chapt10.1.1.jpg)
+1. Opposites
+    1. No cycles like..
+        1. ![pict04](pict/chapt10.1.4.jpg)        
 
 
 #### 2. Tree - Hardcoded
 
-1. 
+1. Basic Defintion
+    1. Class at each level
+    1. Each level belongs to one parent
+        1. ![pict06](pict/chapt10.1.2.jpg)
+
+1. Useful for starting models, not applications
 
 
 
 #### 3. Tree - Simple
 
-1. 
+1. All nodes are the same
+    1. differs only in definition
+![](pict/chapt10.1.3.jpg)1. 
 
 
 #### 4. Tree - Structured
 
-1. 
+1. All nodes
+    1. have text/geometric/group
+        1. ![pict06](pict/chapt10.1.5.jpg)
+    1. Allows nesting and cycles
 
 
 
 #### 5. Tree - Overlapping
 
-1. 
-
+1. Nodes
+    1. can for their own trees
+        1. ![pict08](pict/chapt10.1.6.jpg)
+    1. need to declare root
+    1. nodes are treated uniformally
+    1. no cycles
 
 #### 6. Tree - Changing Over Time
 
