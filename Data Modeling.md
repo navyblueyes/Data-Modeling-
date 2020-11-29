@@ -1683,15 +1683,12 @@ img[alt=pict08] {
 
 #### 6. Tree - Changing Over Time
 
-1. 
-
-
-
-#### 7. Tree - Degenerate Node and Edge
-
-
-1. 
-
+1. Model of a management hierarchy where structure NOT change
+    1. ![pict06](pict/chapt10.1.7.jpg)
+1. Model of a management hierarchy where past, present, future
+    1. ![pict08](pict/chapt10.1.8.jpg)
+        1. separates person from position
+1. Use when things change over time
 
 
 </details>
